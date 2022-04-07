@@ -1,0 +1,125 @@
+/* Design des grands titres et texte */
+body{
+  background-color:#FFF4F7;
+  color: #7897AB;
+  font-family:'Poiret One',cursive;
+  font-weight: 180;
+  font-size:20px ;
+}
+
+h1{
+  font-family:'Abril Fatface', cursive;
+  color: #655D8B;
+  font-size: 30px;
+  line-height: 0.5;
+  letter-spacing: 1.5px;
+  font-weight: bolder;
+}
+
+h2{
+  font-family:'Abril Fatface', cursive;
+  color:#FC9FBC;
+  font-size: 27px;
+  letter-spacing:1px;
+  font-weight: lighter;
+}
+
+h3{
+  font-size:25px ;
+  letter-spacing:2.5px;
+  margin: -10px;
+  color: #39AEA9;
+}
+
+.h3-fontsize {
+  font-size: 20px;
+  margin: 25px auto 10px;
+}
+
+
+/* Links */
+a{
+  text-decoration: none;
+  color:#8368BF;
+  font-size:17px ;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+/* Boutons des liens */
+.btn-purple {
+  background-color: #8368BF;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 7px;
+}
+.btn-purple:hover {
+  background-color:#FC9FBC
+}
+
+
+/* Listes */
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* Liste spécial résaux sociaux */
+.list-inline li {
+  display: inline;
+  padding: 12px;
+}
+
+/* Design des icones résaux sociaux */
+.list-inline i {
+  font-size: 50px;
+  color: #655D8B;
+}
+.list-inline i:hover {
+  color: #52D3C4
+}
+
+
+/* Images */
+img {
+  box-shadow: 0px 10px 90px #FBE2E5;
+}
+
+#imgprofil {
+  width: 320px;
+}
+
+#imgequitation {
+  width: 370px;
+}
+
+
+/* Div principale */
+.container {
+  width: 820px;
+  margin: 80px auto;
+}
+
+/* Toutes les autres div */
+.card-white {
+  background: white;
+  padding:20px;
+  margin:40px 0px;
+  box-shadow: 0px 10px 30px rgba(0 0 0 / 20%);
+  border-radius: 7px;
+  text-align: center;
+}
+
+
+/* Responsive design */
+@media(max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media(max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
